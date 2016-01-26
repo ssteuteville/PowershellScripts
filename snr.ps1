@@ -1,3 +1,6 @@
+# Search And Replace
+# snr <target> <replacement> [--rec]
+# if the 3rd param is --rec this will do a recursive search
 $ext = $args[0]
 $target = $args[1]
 $newString = $args[2]
