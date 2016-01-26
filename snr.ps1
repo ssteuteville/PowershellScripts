@@ -1,5 +1,7 @@
-# Search And Replace
-# snr <target> <replacement> [--rec]
+# Search And Replace - Searches all files with <Extension> in 
+# the current directory and replaces <Target> with <Replacement>
+# snr <Extension> <target> <replacement> [--rec]
+# example snr vdproj `"`" `"8:SAK`"        # ` is escape in PS
 # if the 3rd param is --rec this will do a recursive search
 $ext = $args[0]
 $target = $args[1]
